@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificacionesAlertasActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="Prueba de alertas" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar toast" />
+    <Button
+        android:id="@+id/btn_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar AlertBox" />
+    <Button
+        android:id="@+id/btn_alertBuilder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar AlertBuilder" />
+
+</LinearLayout>
